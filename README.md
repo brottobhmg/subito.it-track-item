@@ -4,8 +4,10 @@ With this tool you can be notified when new item will be inserted in [Subito.it]
 
 
 
-# Usage
 
+# How it works
+
+### Notification
 Two type of notification:
 1. Email. Insert in ```email.txt``` your Outlook email and password.
 2. Telegram. Insert in ```telegram.txt``` your token and chatid
@@ -14,7 +16,8 @@ You can use both.
 Test if the credentials are correct with your setup using option "--test": ```python main.py --price 200,400 --link https://www.subito.it/annunci-italia/vendita/informatica/?q=computer --timeout 5 --test```
 
 
-Example: ```python main.py --price 200,400 --link https://www.subito.it/annunci-italia/vendita/informatica/?q=computer --timeout 5```
+### Usage
+Normal use example: ```python main.py --price 200,400 --link https://www.subito.it/annunci-italia/vendita/informatica/?q=computer --timeout 5```
 
 Where:
 * --price, set the minimum and maximum price to search.

@@ -2,7 +2,8 @@
 
 With this tool you can be notified when new item will be inserted in [Subito.it](https://www.subito.it/)
 
-
+## TL;DR
+You will be notified if the current item is different from latest item of previous refresh.
 
 
 # How it works

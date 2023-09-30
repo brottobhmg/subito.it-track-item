@@ -21,6 +21,6 @@ Where:
 
 * --link, set the url to create the request. Don't insert all the link from Subito.it, only the "prefix" until '&'. If the link is ```https://www.subito.it/annunci-italia/vendita/informatica/?q=computer&qso=true&shp=true&order=datedesc&ps=200&pe=500``` you need to insert ```https://www.subito.it/annunci-italia/vendita/informatica/?q=computer```.
 
-* --timeout, set the timeout between searches.
+* --timeout, set the timeout between searches, in minutes.
 
 
